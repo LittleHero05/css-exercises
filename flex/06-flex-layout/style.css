@@ -25,3 +25,40 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  align-items: flex-end;
+  background-color: #eeeeee;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.right-links {
+  margin-right: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+.content {
+  margin: 29vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+  gap: 12px;
+}
